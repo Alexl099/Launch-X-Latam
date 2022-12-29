@@ -1,1 +1,2 @@
 # Launch-X-Latam
+Bienvenidos a mis primeras experiencias como Web Developer, actualmente estoy cursando el primer año de la carrera de Ingeneria de Sitemas. Dada la poca experiencia que tengo, busco desarrollar todo tipo de habilidades de programacion, cosa que estoy logrando de la mano del programa Launch X Latam. Actualmente tengo horarios de estudio diarios y desarrollo de modulos para avanzar gradualmente. Sin mas que decir, espero que el contenido sea de su agrado :)
