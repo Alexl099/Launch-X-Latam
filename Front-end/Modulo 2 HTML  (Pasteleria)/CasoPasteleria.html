@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosPasteleria.css">
+    <title>Pasteleria Space Cake</title>
+</head>
+<body>
+
+    <header>
+        <h1><img id = "logo"src="./img/LOGO PASTELERIA.png" alt="Logo Pasteleria" width="150" height="150">Bienevenidos a Pasteleria Space-Cake</h1>
+    </header>
+    
+    <hr>
+
+    <h2>Para gustos y sabores: </h2>
+
+    <section id="containerMenu">
+         
+        <table border="1" id="MenuDeSaboresPrecio">
+            <tr>
+                <th>Sabores</th>
+                <th>Muestra</th>
+                <th>Precio</th>
+            </tr>
+
+            <tr>
+                <td>Fresa</td>
+                <td><img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2017/07/pasteldefresasconcrema.jpg" alt="Pastel de Fresa"  width="200" height="200"></td>
+                <td>$22</td>
+            </tr>
+
+            <tr>
+                <td>Mango</td>
+                <td><img src="https://imag.bonviveur.com/tarta-de-mango.jpg" alt="Pastel de Mango"  width="200" height="200"></td>
+                <td>$20</td>
+            </tr>
+
+            <tr>
+                <td>Limon</td>
+                <td><img src="https://assets.kraftfoods.com/recipe_images/Easy_Lemon_Cake.jpg" alt="Pastel de Limon"  width="200" height="200"></td>
+                <td>$20</td>
+            </tr>
+
+            <tr>
+                <td>Naranja</td>
+                <td><img src="https://images-gmi-pmc.edge-generalmills.com/9a2b238e-35d7-4117-8985-175b8bea77d9.jpg" alt="Pastel de Naranja"  width="200" height="200"></td>
+                <td>$25</td>
+            </tr>
+
+            <tr>
+                <td>Maracuya</td>
+                <td><img src="https://www.laylita.com/recetas/wp-content/uploads/2012/12/Tarta-cremosa-de-maracuya-o-chinola-1024x683.jpg" alt="Pastel de Maracuya"  width="200" height="200"></td>
+                <td>$25</td>
+            </tr>
+            
+        </table>
+        
+    </section>
+
+    <hr>
+
+    <section id="containerAdornos">
+
+        <h2>Adornos para asegurar tu felicidad: </h2>
+
+        <table border="1" id="Adornos">
+            <tr>
+                <th>Adorno</th>
+                <th>Muestra</th>
+                <th>Precio</th>
+            </tr>
+
+            <tr>
+                <td>Estatuillas</td>
+                <td><img src="https://ae03.alicdn.com/kf/Hac30046a2c8a44dd9fb1fd7589173b84h.jpg" alt="Estatuillas"  width="200" height="200"></td>
+                <td>$10</td>
+            </tr>
+
+            <tr>
+                <td>Florales</td>
+                <td><img src="https://kittyflor.com/image/cache/data/arreglos-florales-para-cumplea%C3%B1os-600x600.jpg" alt="Florales"  width="200" height="200"></td>
+                <td>$15</td>
+            </tr>
+
+            <tr>
+                <td>Adornos extra</td>
+                <td><img src="https://avantelaser.mx/store/171-large_default/adorno-para-pastel-de-xv-anos.jpg" alt="Adornos extra"  width="200" height="200"></td>
+                <td>$15</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <section id="DetallesPasteleria">
+        <h2>Todo sobre nosotros: </h2>
+
+        <dl>
+            <dt><b>Horarios de Atencion</b></dt>
+                <dd>Lunes a domingo de 8:00AM - 10:00PM</dd>
+            <dt><b>Telefono de contacto:</b></dt>
+                <dd> +51 XXXXXXXXX"</dd>
+            <dt><b>Ubicacion del local: </b></dt> <br>
+                <dd><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.8989471969926!2d-79.0308829860085!3d-8.111771283406592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d87186eba2f%3A0xa846105cd15bab01!2sPlaza%20de%20Armas%20de%20Trujillo!5e0!3m2!1ses-419!2spe!4v1665862770260!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></dd>
+        </dl>
+
+    </section>
+
+    <hr>
+
+   <section id="Combinaciones del cliente">
+        <h2>Ahora es tu momento, personaliza tu pastel: </h2>
+
+        <form action="Accion.js" id="FormularioPedido" method="post">
+
+        <h3>Elige los sabores que mas te gusten: </h3>
+
+            <input type="checkbox" id="Fresa" name="Sabores" value="Fresa">
+            <label for="Fresa">Fresa</label> <br>
+
+            <input type="checkbox" id="Mango" name="Sabores" value="Mango">
+            <label for="Mango"> Mango</label> <br>
+
+            <input type="checkbox" id="Limon" name="Sabores" value="Limon">
+            <label for="Limon">Limon</label> <br>
+
+            <input type="checkbox" id="Naranja" name="Sabores" value="Naranja">
+            <label for="Naranja">Naranja</label> <br>
+            
+            <input type="checkbox" id="Maracuya" name="Sabores" value="Naranja">
+            <label for="Maracuya">Maracuya</label> <br>
+
+        <h3>Elige los adornos que mas te gusten: </h3>
+
+            <input type="checkbox" id="Estatuilla" name="Adornos" value="Estatuilla">
+            <label for="Estatuilla">Estatuilla</label> <br>
+
+            <input type="checkbox" id="Florales" name="Adornos" value="Florares">
+            <label for="Florales">Florares</label> <br>
+
+            <input type="checkbox" id="Adorno extra" name="Adornos" value="Adornos extra">
+            <label for="adornos">Adornos extra</label> <br>
+
+        <h3>Elige un color para tu pastel: </h3>
+
+            <input type="color" id="ColorPastel" name="ColorPastel"> <br>
+        <h3>Describe brevemente a tu pastel ideal: </h3>
+          
+            <textarea name="DescripcionPastel" id="DescripcionPastel" cols="50" rows="30"></textarea> <br>
+            <input type="button" id="DescripcionPaste" name="BotonAceptar" value="Aceptar" onclick="alert('Gracias, tu descripcion se ha enviado corremente :)')"> 
+            <input type="reset" value="Restablecer" id="DescripcionPastel"> <br>
+
+        <h3>Es hora de ingresar tus datos para finalizar el pedido </h3>
+            <label for="Nombres">Ingresa tu nombre: </label><br>
+            <input type="text" id="Nombres" name="Nombres"> <br>
+
+            <label for="Apellidos">Ingresa tus apellidos </label><br>
+            <input type="text" id="Apellidos" name="Apellidos"> <br>
+
+            <label for="NumTelefono">Ingresa tu numero telefonico </label><br>
+            <input type="tel" id="NumTeleefon" name="NumTelefono" maxlength="13"> <br>
+
+            <label for="Correoxd">Ingresa tu E-mail </label><br>
+            <input type="email" id="Correoxd" name="Correoxd"><br>
+
+            <input type="submit" id="FormularioPedido" value="Completa mi pedido">
+
+        
+        </form>
+
+   </section>
+
+   <hr>
+   <hr>
+   <hr>
+   <h1>Pagina para el dueño del negocio</h1>
+   <hr>
+   <hr>
+   <hr>
+   <!--PAGINA PARA EL PASTELERO-->
+
+   <header>
+        <h1>Bienvenido, es hora de ser productivo :)</h1>
+   </header>
+
+   <hr>
+
+   <section id="DisponibilidadProductos">
+    <dl>
+        <dt><b>Candidad de sabores disponibles</b></dt>
+            <dd>
+                <label for="DispFresa"><b>Cantidad restante de pasteles de sabor fresa: </b></label>
+                <input type="number" id="DispFresa" name="DispFresa" value="5"><br>
+            </dd>
+
+            <dd>
+                <label for="DispMango"><b>Cantidad restante de pasteles de sabor mango: </b></label>
+                <input type="number" id="DispMango" name="DispMango" value="6"><br>
+            </dd>
+
+            <dd>
+                <label for="DispLimon"><b>Cantidad restante de pasteles de sabor limon: </b></label>
+                <input type="number" id="DispLimon" name="DispLion" value="3"><br>
+            </dd>
+
+            <dd>
+                <label for="DispNaranja"><b>Cantidad restante de pasteles de sabor Naranja: </b></label>
+                <input type="number" id="DispNaranja" name="DispNaranja" value="2"><br>
+            
+            </dd>
+
+            <dd>
+
+                <label for="DispNaranja"><b>Cantidad restante de pasteles de sabor Naranja: </b></label>
+                <input type="number" id="DispNaranja" name="DispNaranja" value="2"><br>
+
+            </dd>
+
+            <dd>
+                <label for="DispMaracuya"><b>Cantidad restante de pasteles de sabor Maracuya </b></label>
+                <input type="number" id="DispMaracuya" name="DispMaracuya" value="4"><br>
+           
+            </dd>
+        <dt><b>Cantidad de adornos disponibles</b></dt>
+            <dd>
+                <label for="DispEstatuilla"><b>Cantidad restante de Estatuillas </b></label>
+                <input type="number" id="DispEstatuilla" name="DispEstatuilla" value="3"><br>
+            </dd>
+
+            <dd>
+                <label for="DispFlorales"><b>Cantidad restante de pasteles de sabor mango: </b></label>
+                <input type="number" id="DispFlorales" name="DispFlorales" value="4"><br>
+            </dd>
+
+            <dd>
+                <label for="DispAdornosExtra"><b>Cantidad restante de pasteles de sabor mango: </b></label>
+                <input type="number" id="DispAdornosExtra" name="DispAdornosExtra" value="6"><br>
+            </dd>
+    </dl>
+
+   </section>
+
+   <hr>
+
+   <section id="TabladeAdministracion">
+        <table border="1">
+            <tr>
+                <th><b>N° de orden</b></th>
+                <th><b>Sabores</b></th>
+                <th><b>Adornos</b></th>
+                <th><b>Color de Pastel</b></th>
+                <th><b>Descripcion</b></th>
+                <th><b>Nombres del receptor</b></th>
+                <th><b>Numero Telefonico</b></th>
+                <th><b>E-mail</b></th>
+                <th><b>Despachar pedido</b></th>
+            </tr>
+
+            <tr>
+                <td>N°27</td>
+                <td>Fresa, Limon, Maracuya</td>
+                <td>Estauillas y flores</td>
+                <td>Pastel de color rosa</td>
+                <td>Pastel de sabor limon, fresa y maracuya. Ademas tendra estatuillas, flores y sera de color rosa.</td>
+                <td>Jefote Perron Martinez</td>
+                <td>+99 1234567</td>
+                <td>jefotemartinez@launchx.com</td>
+                <td> <input type="button" id="Pedido27" name="Pedido27" value="Realizar envio" onclick="alert('Envio confirmado');"></td>
+            </tr>
+
+            <tr>
+                <td>N°28</td>
+                <td>Mango, Limon</td>
+                <td>Adornos Extra</td>
+                <td>Pastel de color azul</td>
+                <td>Pastel de sabor mango y limon. Ademas tendra adornos extra y sera de color rosa.</td>
+                <td>Jefote Perron Dobel Martinez Gonzales</td>
+                <td>+97 1234567</td>
+                <td>perrondobel@launchx.com</td>
+                <td> <input type="button" id="Pedido28" name="Pedido28" value="Realizar envio" onclick="alert('Envio confirmado');"></td>
+            </tr>
+
+
+
+        </table>
+
+    </section>
+
+    
+</body>
+</html>

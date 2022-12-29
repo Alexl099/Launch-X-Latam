@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Practica</title>
+</head>
+<body>
+
+    <section class="ContainerPokedex">
+        
+        <div class="PokeIzquierda">
+            <div class="Pokederecha__imagen">
+                <div class="Pokederecha__imagen--Img">
+                    <img id="Pokederecha__imagen--Img" src="https://media.tenor.com/nyF1LSznl94AAAAC/squirtle-bailando.gif" alt="pokemon" width="100%" height="100%">
+                </div>
+            </div>
+
+            <div class="Pokederecha__buscador">
+                
+                <input id="Pokederecha__buscador--Text" type="text" placeholder="Ingresa el nombre de tu pokemon" class="Pokederecha__buscador--Text">
+                <button class="Pokederecha__buscador--button" onclick="ConsultarPokemon()">Aceptar</button>
+                
+                
+            </div>
+        </div>
+
+        <div class="PokeDerecha">
+            <div class="informacion">
+                <div class="informacion__propiedades" id="pokeSpecs">
+                    
+                </div>
+
+                <div class="informacion__img">
+                    <img src="https://i.pinimg.com/originals/bd/cd/20/bdcd20f5411ee5785889542d303ad4cb.png" alt="LogoPokedex" width="100%" height="80%">
+                </div>
+                
+            </div>
+        </div>
+
+
+    </section>
+        <script src="./main.js"></script>
+</body>
+</html>

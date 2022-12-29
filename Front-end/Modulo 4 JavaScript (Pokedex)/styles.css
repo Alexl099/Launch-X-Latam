@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+.ContainerPokedex{
+    display: flex;
+    flex-wrap: wrap;
+    width: cover;
+    height: 630px;
+    background-color: #202020;
+    padding: 2%;
+    margin:0%;
+    border: solid rgb(201, 200, 200) 2px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+.PokeIzquierda{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(255, 59, 59);
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 7%;
+    border-top-right-radius: 7%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.Pokederecha__imagen{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 50%;
+    background-color: rgb(240, 209, 248);
+    border-radius: 5%;
+    padding: 2%;
+
+    justify-content: center;
+    align-items: center;
+    border: solid black 5px;
+}
+
+.Pokederecha__imagen--Img{
+
+    display:  flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 80%;
+    background-color: rgb(125, 240, 122);
+    border-radius: 3%;
+    border: solid black 3px;
+}
+.Pokederecha__buscador{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 20%;
+    background-color: rgb(102, 177, 108);
+    border-radius: 5%;
+    padding: 2%;
+    border: solid black 5px;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.Pokederecha__buscador--Text{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 20%;
+    color: black;
+    border-color: rgb(0, 0, 0);
+    background-color:rgb(102, 177, 108);
+
+    visibility: visible;
+    opacity: 1;
+}
+.Pokederecha__buscador--button{
+
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 30%;
+    text-decoration: none;
+    border: 1px solid rgb(66, 66, 66);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 46, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 4px 5px rgba(53, 53, 221, 0.219);
+    
+}
+
+
+.PokeDerecha{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    height: 86%;
+    background-color: rgb(255, 59, 59);
+    border-top-right-radius: 7%;
+    border-bottom-right-radius: 7%;
+    margin-top:7%;
+    
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   
+}
+
+
+.informacion{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.informacion__propiedades{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 55%;
+    border-radius: 4%;
+    background-color: rgb(206, 255, 167);
+    border: solid black 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color:rgb(73, 137, 255);
+    font-weight: bold;
+    padding:2%;
+
+
+}
+
+.informacion__img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 30%;
+    border-radius: 4%;
+}
